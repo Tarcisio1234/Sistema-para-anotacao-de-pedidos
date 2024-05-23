@@ -100,5 +100,30 @@ namespace AppAcougue
             }
             return pedidos;
         }
+        public void EditarCadastroCliente()
+        { // editar os dados dos clientes
+            try
+            {
+                MySqlConnectionManager connectionManager = new MySqlConnectionManager();
+                MySqlConnection connection = connectionManager.GetConnect();
+                connection.Open();
+                MySqlCommand cmd = new MySqlCommand();
+                cmd.Connection = connection;
+                cmd.CommandText = "UPDATE `cadastrocliente` SET `nome` = @nome, `endereco` = @endereco, `telefone` =@telefone WHERE `idcliente` = @idcliente;";
+                cmd.Parameters.AddWithValue("@nome", Nome);
+                cmd.Parameters.AddWithValue("@endereco", Endereco);
+                cmd.Parameters.AddWithValue("@telefone", Telefone);
+                cmd.Parameters.AddWithValue("@idcliente", Idcliente);
+                cmd.ExecuteNonQuery();
+                connection.Close();
+                MessageBox.Show("As alterações foram feitas com sucesso", "Sucesso!", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                connection.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro" + ex.Message);
+            }
+        }
+        
     }
 }

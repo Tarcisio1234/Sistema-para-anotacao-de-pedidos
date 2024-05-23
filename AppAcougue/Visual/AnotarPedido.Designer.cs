@@ -70,7 +70,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(648, 85);
+            this.label1.Location = new System.Drawing.Point(655, 246);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(94, 31);
@@ -80,7 +80,7 @@
             // txtNome
             // 
             this.txtNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNome.Location = new System.Drawing.Point(655, 133);
+            this.txtNome.Location = new System.Drawing.Point(655, 290);
             this.txtNome.Margin = new System.Windows.Forms.Padding(4);
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(500, 37);
@@ -89,7 +89,7 @@
             // txtEndereco
             // 
             this.txtEndereco.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEndereco.Location = new System.Drawing.Point(655, 252);
+            this.txtEndereco.Location = new System.Drawing.Point(655, 140);
             this.txtEndereco.Margin = new System.Windows.Forms.Padding(4);
             this.txtEndereco.Multiline = true;
             this.txtEndereco.Name = "txtEndereco";
@@ -100,7 +100,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(648, 204);
+            this.label3.Location = new System.Drawing.Point(648, 92);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(138, 31);
@@ -110,7 +110,7 @@
             // txtCelular
             // 
             this.txtCelular.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCelular.Location = new System.Drawing.Point(655, 416);
+            this.txtCelular.Location = new System.Drawing.Point(662, 523);
             this.txtCelular.Margin = new System.Windows.Forms.Padding(4);
             this.txtCelular.Name = "txtCelular";
             this.txtCelular.Size = new System.Drawing.Size(301, 37);
@@ -120,7 +120,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(648, 368);
+            this.label4.Location = new System.Drawing.Point(655, 475);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(128, 31);
@@ -191,7 +191,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(655, 475);
+            this.label5.Location = new System.Drawing.Point(655, 358);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(160, 32);
             this.label5.TabIndex = 11;
@@ -208,7 +208,7 @@
             "Maquina de cartão",
             "Pix",
             "Assinar notinha"});
-            this.txtPagamento.Location = new System.Drawing.Point(655, 522);
+            this.txtPagamento.Location = new System.Drawing.Point(655, 405);
             this.txtPagamento.Name = "txtPagamento";
             this.txtPagamento.Size = new System.Drawing.Size(295, 37);
             this.txtPagamento.TabIndex = 6;

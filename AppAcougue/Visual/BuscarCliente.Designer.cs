@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtNome = new System.Windows.Forms.TextBox();
@@ -37,7 +37,7 @@
             this.gridClientes = new System.Windows.Forms.DataGridView();
             this.idcliente = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Nome = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Endereço = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.endereco = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Telefone = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Exibir = new System.Windows.Forms.DataGridViewButtonColumn();
             ((System.ComponentModel.ISupportInitialize)(this.gridClientes)).BeginInit();
@@ -69,7 +69,7 @@
             // 
             this.txtNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNome.Location = new System.Drawing.Point(157, 118);
-            this.txtNome.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNome.Margin = new System.Windows.Forms.Padding(4);
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(512, 37);
             this.txtNome.TabIndex = 1;
@@ -78,7 +78,7 @@
             // 
             this.buttonbtnVoltar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonbtnVoltar.Location = new System.Drawing.Point(448, 517);
-            this.buttonbtnVoltar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonbtnVoltar.Margin = new System.Windows.Forms.Padding(4);
             this.buttonbtnVoltar.Name = "buttonbtnVoltar";
             this.buttonbtnVoltar.Size = new System.Drawing.Size(167, 66);
             this.buttonbtnVoltar.TabIndex = 3;
@@ -90,7 +90,7 @@
             // 
             this.btnBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBuscar.Location = new System.Drawing.Point(740, 113);
-            this.btnBuscar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnBuscar.Margin = new System.Windows.Forms.Padding(4);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(123, 53);
             this.btnBuscar.TabIndex = 2;
@@ -104,11 +104,11 @@
             this.gridClientes.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.idcliente,
             this.Nome,
-            this.Endereço,
+            this.endereco,
             this.Telefone,
             this.Exibir});
             this.gridClientes.Location = new System.Drawing.Point(43, 213);
-            this.gridClientes.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gridClientes.Margin = new System.Windows.Forms.Padding(4);
             this.gridClientes.Name = "gridClientes";
             this.gridClientes.RowHeadersWidth = 51;
             this.gridClientes.Size = new System.Drawing.Size(980, 273);
@@ -133,14 +133,14 @@
             this.Nome.ReadOnly = true;
             this.Nome.Width = 180;
             // 
-            // Endereço
+            // endereco
             // 
-            this.Endereço.DataPropertyName = "Endereco";
-            this.Endereço.HeaderText = "Endereco";
-            this.Endereço.MinimumWidth = 6;
-            this.Endereço.Name = "Endereço";
-            this.Endereço.ReadOnly = true;
-            this.Endereço.Width = 250;
+            this.endereco.DataPropertyName = "Endereco";
+            this.endereco.HeaderText = "Endereço";
+            this.endereco.MinimumWidth = 6;
+            this.endereco.Name = "endereco";
+            this.endereco.ReadOnly = true;
+            this.endereco.Width = 250;
             // 
             // Telefone
             // 
@@ -153,9 +153,9 @@
             // 
             // Exibir
             // 
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.Lime;
-            this.Exibir.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.Lime;
+            this.Exibir.DefaultCellStyle = dataGridViewCellStyle1;
             this.Exibir.HeaderText = "Exibir";
             this.Exibir.MinimumWidth = 6;
             this.Exibir.Name = "Exibir";
@@ -176,7 +176,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "BuscarCliente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -198,7 +198,7 @@
         private System.Windows.Forms.DataGridView gridClientes;
         private System.Windows.Forms.DataGridViewTextBoxColumn idcliente;
         private System.Windows.Forms.DataGridViewTextBoxColumn Nome;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Endereço;
+        private System.Windows.Forms.DataGridViewTextBoxColumn endereco;
         private System.Windows.Forms.DataGridViewTextBoxColumn Telefone;
         private System.Windows.Forms.DataGridViewButtonColumn Exibir;
     }

@@ -221,12 +221,6 @@
     </Compile>
     <Compile Include="Classe\Cliente.cs" />
     <Compile Include="Classe\Conexao.cs" />
-    <Compile Include="Visual\EditarCliente.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Visual\EditarCliente.Designer.cs">
-      <DependentUpon>EditarCliente.cs</DependentUpon>
-    </Compile>
     <Compile Include="Visual\Exibir_Pedidos_Agendados.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -245,11 +239,11 @@
     <Compile Include="Visual\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Visual\Form2.cs">
+    <Compile Include="Visual\Informacao_Clientes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Visual\Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="Visual\Informacao_Clientes.Designer.cs">
+      <DependentUpon>Informacao_Clientes.cs</DependentUpon>
     </Compile>
     <Compile Include="Visual\Historico.cs">
       <SubType>Form</SubType>
@@ -281,9 +275,6 @@
     <EmbeddedResource Include="Visual\CadastroClientecs.resx">
       <DependentUpon>CadastroClientecs.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Visual\EditarCliente.resx">
-      <DependentUpon>EditarCliente.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Visual\Exibir_Pedidos_Agendados.resx">
       <DependentUpon>Exibir_Pedidos_Agendados.cs</DependentUpon>
     </EmbeddedResource>
@@ -293,8 +284,8 @@
     <EmbeddedResource Include="Visual\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Visual\Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="Visual\Informacao_Clientes.resx">
+      <DependentUpon>Informacao_Clientes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Visual\Historico.resx">
       <DependentUpon>Historico.cs</DependentUpon>

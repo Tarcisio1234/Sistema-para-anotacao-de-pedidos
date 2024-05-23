@@ -56,11 +56,12 @@ namespace AppAcougue
         {
             if (e.RowIndex >= 0 && e.ColumnIndex == gridClientes.Columns["Exibir"].Index)
             {
-                Exibir_pedidos_dia propriedades = new Exibir_pedidos_dia();
+                Exibir_Cliente propriedades = new Exibir_Cliente();
                 propriedades.Nome = gridClientes.SelectedCells[0].OwningRow.Cells["nome"].Value.ToString();
                 propriedades.Endereco = gridClientes.SelectedCells[0].OwningRow.Cells["endereco"].Value.ToString();
                 propriedades.Telefone = gridClientes.SelectedCells[0].OwningRow.Cells["telefone"].Value.ToString();
-                propriedades.Pagamento = gridClientes.SelectedCells[0].OwningRow.Cells["pagamento"].Value.ToString();
+                propriedades.Idcliente = gridClientes.SelectedCells[0].OwningRow.Cells["idcliente"].Value.ToString();
+                //propriedades.Pagamento = gridClientes.SelectedCells[0].OwningRow.Cells["pagamento"].Value.ToString();
                 propriedades.Show();
                 this.Hide();
             }

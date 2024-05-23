@@ -1,0 +1,99 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tarci\\OneDrive\\\u00C1rea de Trabalho\\appacougue_3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF7961E-610E-4EB6-AFC2-CCB6C29F976C}|AppAcougue\\AppAcougue.csproj|c:\\users\\tarci\\onedrive\\\u00E1rea de trabalho\\appacougue_3\\appacougue\\visual\\anotarpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7EF7961E-610E-4EB6-AFC2-CCB6C29F976C}|AppAcougue\\AppAcougue.csproj|solutionrelative:appacougue\\visual\\anotarpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF7961E-610E-4EB6-AFC2-CCB6C29F976C}|AppAcougue\\AppAcougue.csproj|c:\\users\\tarci\\onedrive\\\u00E1rea de trabalho\\appacougue_3\\appacougue\\classe\\agendados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EF7961E-610E-4EB6-AFC2-CCB6C29F976C}|AppAcougue\\AppAcougue.csproj|solutionrelative:appacougue\\classe\\agendados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF7961E-610E-4EB6-AFC2-CCB6C29F976C}|AppAcougue\\AppAcougue.csproj|c:\\users\\tarci\\onedrive\\\u00E1rea de trabalho\\appacougue_3\\appacougue\\visual\\exibir_pedidos_dia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EF7961E-610E-4EB6-AFC2-CCB6C29F976C}|AppAcougue\\AppAcougue.csproj|solutionrelative:appacougue\\visual\\exibir_pedidos_dia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AnotarPedido.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tarci\\OneDrive\\\u00C1rea de Trabalho\\appacougue_3\\AppAcougue\\Visual\\AnotarPedido.cs",
+              "RelativeDocumentMoniker": "AppAcougue\\Visual\\AnotarPedido.cs",
+              "ToolTip": "C:\\Users\\tarci\\OneDrive\\\u00C1rea de Trabalho\\appacougue_3\\AppAcougue\\Visual\\AnotarPedido.cs [Design]",
+              "RelativeToolTip": "AppAcougue\\Visual\\AnotarPedido.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T20:21:31.352Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "8d0fb09c-d5d6-4f08-a640-3a3049f3364c",
+        "Display": 0,
+        "X": 2151,
+        "Y": 0,
+        "Width": 1140,
+        "Height": 725,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Exibir_pedidos_dia.cs",
+              "DocumentMoniker": "C:\\Users\\tarci\\OneDrive\\\u00C1rea de Trabalho\\appacougue_3\\AppAcougue\\Visual\\Exibir_pedidos_dia.cs",
+              "RelativeDocumentMoniker": "AppAcougue\\Visual\\Exibir_pedidos_dia.cs",
+              "ToolTip": "C:\\Users\\tarci\\OneDrive\\\u00C1rea de Trabalho\\appacougue_3\\AppAcougue\\Visual\\Exibir_pedidos_dia.cs",
+              "RelativeToolTip": "AppAcougue\\Visual\\Exibir_pedidos_dia.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAxwCAAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T19:33:39.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Agendados.cs",
+              "DocumentMoniker": "C:\\Users\\tarci\\OneDrive\\\u00C1rea de Trabalho\\appacougue_3\\AppAcougue\\Classe\\Agendados.cs",
+              "RelativeDocumentMoniker": "AppAcougue\\Classe\\Agendados.cs",
+              "ToolTip": "C:\\Users\\tarci\\OneDrive\\\u00C1rea de Trabalho\\appacougue_3\\AppAcougue\\Classe\\Agendados.cs",
+              "RelativeToolTip": "AppAcougue\\Classe\\Agendados.cs",
+              "ViewState": "AQIAAKIAAAAAAAAAAAAiwLQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T19:36:03.263Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
