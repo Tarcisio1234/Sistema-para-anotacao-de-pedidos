@@ -34,11 +34,11 @@
             this.label4 = new System.Windows.Forms.Label();
             this.txtNome = new System.Windows.Forms.TextBox();
             this.txtEndereco = new System.Windows.Forms.TextBox();
-            this.txtTelefone = new System.Windows.Forms.TextBox();
             this.btnVoltar = new System.Windows.Forms.Button();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.btnSalvar = new System.Windows.Forms.Button();
             this.txtIdcliente = new System.Windows.Forms.TextBox();
+            this.txtTelefone = new System.Windows.Forms.MaskedTextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -89,6 +89,7 @@
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(537, 34);
             this.txtNome.TabIndex = 4;
+            this.txtNome.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNome_KeyPress);
             // 
             // txtEndereco
             // 
@@ -99,15 +100,6 @@
             this.txtEndereco.Name = "txtEndereco";
             this.txtEndereco.Size = new System.Drawing.Size(537, 99);
             this.txtEndereco.TabIndex = 5;
-            // 
-            // txtTelefone
-            // 
-            this.txtTelefone.Enabled = false;
-            this.txtTelefone.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTelefone.Location = new System.Drawing.Point(51, 491);
-            this.txtTelefone.Name = "txtTelefone";
-            this.txtTelefone.Size = new System.Drawing.Size(301, 34);
-            this.txtTelefone.TabIndex = 6;
             // 
             // btnVoltar
             // 
@@ -151,16 +143,27 @@
             this.txtIdcliente.TabIndex = 10;
             this.txtIdcliente.Visible = false;
             // 
+            // txtTelefone
+            // 
+            this.txtTelefone.Enabled = false;
+            this.txtTelefone.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTelefone.Location = new System.Drawing.Point(51, 487);
+            this.txtTelefone.Mask = "############";
+            this.txtTelefone.Name = "txtTelefone";
+            this.txtTelefone.Size = new System.Drawing.Size(205, 34);
+            this.txtTelefone.TabIndex = 29;
+            this.txtTelefone.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
+            // 
             // Exibir_Cliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(912, 716);
+            this.Controls.Add(this.txtTelefone);
             this.Controls.Add(this.txtIdcliente);
             this.Controls.Add(this.btnSalvar);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.btnVoltar);
-            this.Controls.Add(this.txtTelefone);
             this.Controls.Add(this.txtEndereco);
             this.Controls.Add(this.txtNome);
             this.Controls.Add(this.label4);
@@ -186,10 +189,10 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.TextBox txtEndereco;
-        private System.Windows.Forms.TextBox txtTelefone;
         private System.Windows.Forms.Button btnVoltar;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.Button btnSalvar;
         private System.Windows.Forms.TextBox txtIdcliente;
+        private System.Windows.Forms.MaskedTextBox txtTelefone;
     }
 }

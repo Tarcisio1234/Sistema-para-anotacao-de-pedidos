@@ -77,6 +77,7 @@ namespace AppAcougue
                 propriedades.Telefone = gridPedidosAgendados.SelectedCells[0].OwningRow.Cells["telefone"].Value.ToString();
                 propriedades.Pedido = gridPedidosAgendados.SelectedCells[0].OwningRow.Cells["pedido"].Value.ToString();
                 propriedades.Idpedidosagendados = gridPedidosAgendados.SelectedCells[0].OwningRow.Cells["idpedidosagendados"].Value.ToString();
+                propriedades.Pagamento = gridPedidosAgendados.SelectedCells[0].OwningRow.Cells["Pagamento"].Value.ToString();
                 propriedades.Show();
                 this.Hide();
             }

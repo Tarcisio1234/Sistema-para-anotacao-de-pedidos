@@ -34,6 +34,7 @@ namespace AppAcougue.Visual
         public string Telefone { get; set; }
         public string Pedido { get; set; }
         public string Idpedidosagendados { get; set; }
+        public string Pagamento { get; set; }
 
 
         private void button2_Click(object sender, EventArgs e)
@@ -50,6 +51,7 @@ namespace AppAcougue.Visual
             txtEndereco.Text = Endereco;
             txtTelefone.Text = Telefone;
             txtPedido.Text = Pedido;
+            txtPagamento.Text = Pagamento;
             txtId2.Text = Idpedidosagendados;
 
         }
@@ -118,6 +120,7 @@ namespace AppAcougue.Visual
                 document.Add(new Paragraph(txtEndereco.Text));
                 document.Add(new Paragraph(txtNome.Text));
                 document.Add(new Paragraph(txtPagamento.Text));
+                document.Add(new Paragraph(txtTelefone.Text));
                 // ajustando a impressão 
 
                 document.Close();
@@ -145,6 +148,15 @@ namespace AppAcougue.Visual
             else
             {
                 MessageBox.Show("Arquivo PDF não encontrado: " + caminhoDoArquivoPdf);
+            }
+        }
+
+        private void txtNome_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            // Esse codigo faz com que o txtNome aceite apenas numero
+            if (!char.IsControl(e.KeyChar) && !char.IsLetter(e.KeyChar))
+            {
+                e.Handled = true;
             }
         }
     }

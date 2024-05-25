@@ -66,5 +66,14 @@ namespace AppAcougue.Visual
                 btnSalvar.Visible=false;
             }
         }
+
+        private void txtNome_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            // Esse codigo faz com que o txtNome aceite apenas numero
+            if (!char.IsControl(e.KeyChar) && !char.IsLetter(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+        }
     }
 }

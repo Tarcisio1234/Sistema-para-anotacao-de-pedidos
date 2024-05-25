@@ -3,17 +3,17 @@ using iText.Kernel.Font;
 using iText.Kernel.Geom;
 using iText.Kernel.Pdf;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+//using System.Collections.Generic;
+//using System.ComponentModel;
+//using System.Data;
+//using System.Drawing;
+//using System.Linq;
+//using System.Text;
+//using System.Threading.Tasks;
 using System.Windows.Forms;
-using iText.Kernel.Font;
-using iText.Kernel.Geom;
-using iText.Kernel.Pdf;
+//using iText.Kernel.Font;
+//using iText.Kernel.Geom;
+//using iText.Kernel.Pdf;
 using iText.Layout;
 using iText.Layout.Element;
 using System.Diagnostics;
@@ -140,6 +140,15 @@ namespace AppAcougue.Visual
             else
             {
                 MessageBox.Show("Arquivo PDF não encontrado: " + caminhoDoArquivoPdf);
+            }
+        }
+
+        private void txtNome_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            // Esse codigo faz com que o txtNome aceite apenas numero
+            if (!char.IsControl(e.KeyChar) && !char.IsLetter(e.KeyChar))
+            {
+                e.Handled = true;
             }
         }
     }

@@ -1,21 +1,21 @@
 ﻿using iText.IO.Font.Constants;
-using iText.Kernel.Colors;
+//using iText.Kernel.Colors;
 using iText.Kernel.Font;
 using iText.Kernel.Geom;
 using iText.Kernel.Pdf;
 using iText.Layout;
 using iText.Layout.Element;
-using iText.Layout.Properties;
+//using iText.Layout.Properties;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
+//using System.Collections.Generic;
+//using System.ComponentModel;
+//using System.Data;
 using System.Diagnostics;
-using System.Drawing;
+//using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+//using System.Linq;
+//using System.Text;
+//using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace AppAcougue
@@ -47,9 +47,9 @@ namespace AppAcougue
                     Cliente usuario = new Cliente();
                     usuario.Nome = txtNome.Text;
                     usuario.Endereco = txtEndereco.Text;
-                    usuario.Telefone = txtCelular.Text;
+                    usuario.Telefone = txtTelefone.Text;
                     usuario.Salvar();
-                    txtCelular.Clear();
+                    txtTelefone.Clear();
                     txtNome.Clear();
                     txtEndereco.Clear();
                 }
@@ -70,7 +70,7 @@ namespace AppAcougue
                 Agendados usuario = new Agendados();
                 usuario.Nome = txtNome.Text;
                 usuario.Endereco = txtEndereco.Text;
-                usuario.Telefone = txtCelular.Text;
+                usuario.Telefone = txtTelefone.Text;
                 usuario.Pedido = txtPedido.Text;
                 usuario.Data = Convert.ToDateTime(dataTime.Text);
                 usuario.Pagamento = txtPagamento.Text;
@@ -83,7 +83,7 @@ namespace AppAcougue
                 Pedidos usuario = new Pedidos();
                 usuario.Nome = txtNome.Text;
                 usuario.Endereco = txtEndereco.Text;
-                usuario.Telefone = txtCelular.Text;
+                usuario.Telefone = txtTelefone.Text;
                 usuario.Pedido = txtPedido.Text;
                 usuario.Data = Convert.ToDateTime(dataTime.Text);
                 usuario.Pagamento = txtPagamento.Text;
@@ -91,7 +91,7 @@ namespace AppAcougue
                 checkBox1.Checked = false;
             }
             GerarPdf(verdade);
-            txtCelular.Clear();
+            txtTelefone.Clear();
             txtNome.Clear();
             txtEndereco.Clear();
             txtPedido.Clear();
@@ -142,7 +142,7 @@ namespace AppAcougue
                     document.Add(new Paragraph(txtEndereco.Text));
                     document.Add(new Paragraph(txtNome.Text));
                     document.Add(new Paragraph(txtPagamento.Text));
-                    document.Add(new Paragraph(txtCelular.Text));
+                    document.Add(new Paragraph(txtTelefone.Text));
                     document.Add(new Paragraph(dataTime.Text));
 
                     document.Close();
@@ -162,7 +162,7 @@ namespace AppAcougue
                     document.Add(new Paragraph(txtEndereco.Text));
                     document.Add(new Paragraph(txtNome.Text));
                     document.Add(new Paragraph(txtPagamento.Text));
-                    document.Add(new Paragraph(txtCelular.Text));
+                    document.Add(new Paragraph(txtTelefone.Text));
                     document.Close();
                     pdfDocument.Close();
                 }
@@ -187,5 +187,16 @@ namespace AppAcougue
                 dataTime.Enabled = false;
             }
         }
+
+        private void txtNome_KeyPress(object sender, KeyPressEventArgs e)
+        { // Esse codigo faz com que o txtNome aceite apenas numero
+            if (!char.IsControl(e.KeyChar) && !char.IsLetter(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+
+        }
+
+
     }
 }

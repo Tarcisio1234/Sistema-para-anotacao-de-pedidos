@@ -31,7 +31,7 @@ namespace AppAcougue
             {
                 txtNome.Clear();
                 txtEndereco.Clear();
-                txtCelular.Clear();
+                txtTelefone.Clear();
             }
         }
 
@@ -48,9 +48,9 @@ namespace AppAcougue
                     Cliente usuario = new Cliente();
                     usuario.Nome = txtNome.Text;
                     usuario.Endereco = txtEndereco.Text;
-                    usuario.Telefone = txtCelular.Text;
+                    usuario.Telefone = txtTelefone.Text;
                     usuario.Salvar();
-                    txtCelular.Clear() ;
+                    txtTelefone.Clear() ;
                     txtNome.Clear() ;
                     txtEndereco.Clear() ;
                 }
@@ -65,6 +65,14 @@ namespace AppAcougue
                 {
                 MessageBox.Show("Não foi possivel salvar os dados dos cliente", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
+        }
+
+        private void txtNome_KeyPress(object sender, KeyPressEventArgs e)
+        { // O txt nome aceita apenas letras
+            if (!char.IsControl(e.KeyChar) && !char.IsLetter(e.KeyChar))
+            {
+                e.Handled = true;
+            }
         }
     }
 }

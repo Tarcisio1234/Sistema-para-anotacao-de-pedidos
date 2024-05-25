@@ -33,7 +33,6 @@
             this.button2 = new System.Windows.Forms.Button();
             this.btnEditar = new System.Windows.Forms.Button();
             this.txtPedido = new System.Windows.Forms.TextBox();
-            this.txtTelefone = new System.Windows.Forms.TextBox();
             this.txtEndereco = new System.Windows.Forms.TextBox();
             this.txtNome = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -43,6 +42,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.txtPagamento = new System.Windows.Forms.ComboBox();
             this.btn_Imprimir = new System.Windows.Forms.Button();
+            this.txtTelefone = new System.Windows.Forms.MaskedTextBox();
             this.SuspendLayout();
             // 
             // checkBox2
@@ -101,16 +101,6 @@
             this.txtPedido.Size = new System.Drawing.Size(505, 741);
             this.txtPedido.TabIndex = 22;
             // 
-            // txtTelefone
-            // 
-            this.txtTelefone.Enabled = false;
-            this.txtTelefone.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTelefone.Location = new System.Drawing.Point(19, 467);
-            this.txtTelefone.Margin = new System.Windows.Forms.Padding(4);
-            this.txtTelefone.Name = "txtTelefone";
-            this.txtTelefone.Size = new System.Drawing.Size(253, 34);
-            this.txtTelefone.TabIndex = 16;
-            // 
             // txtEndereco
             // 
             this.txtEndereco.Enabled = false;
@@ -131,6 +121,7 @@
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(449, 34);
             this.txtNome.TabIndex = 12;
+            this.txtNome.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNome_KeyPress);
             // 
             // label4
             // 
@@ -214,12 +205,24 @@
             this.btn_Imprimir.UseVisualStyleBackColor = true;
             this.btn_Imprimir.Click += new System.EventHandler(this.btn_Imprimir_Click);
             // 
+            // txtTelefone
+            // 
+            this.txtTelefone.Enabled = false;
+            this.txtTelefone.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTelefone.Location = new System.Drawing.Point(18, 480);
+            this.txtTelefone.Mask = "############";
+            this.txtTelefone.Name = "txtTelefone";
+            this.txtTelefone.Size = new System.Drawing.Size(255, 34);
+            this.txtTelefone.TabIndex = 29;
+            this.txtTelefone.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
+            // 
             // Exibir_pedidos_dia
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1102, 812);
+            this.Controls.Add(this.txtTelefone);
             this.Controls.Add(this.btn_Imprimir);
             this.Controls.Add(this.txtPagamento);
             this.Controls.Add(this.label5);
@@ -228,7 +231,6 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.btnEditar);
             this.Controls.Add(this.txtPedido);
-            this.Controls.Add(this.txtTelefone);
             this.Controls.Add(this.txtEndereco);
             this.Controls.Add(this.txtNome);
             this.Controls.Add(this.label4);
@@ -253,7 +255,6 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button btnEditar;
         private System.Windows.Forms.TextBox txtPedido;
-        private System.Windows.Forms.TextBox txtTelefone;
         private System.Windows.Forms.TextBox txtEndereco;
         private System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.Label label4;
@@ -263,5 +264,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ComboBox txtPagamento;
         private System.Windows.Forms.Button btn_Imprimir;
+        private System.Windows.Forms.MaskedTextBox txtTelefone;
     }
 }

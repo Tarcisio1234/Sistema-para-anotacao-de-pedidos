@@ -34,7 +34,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.txtNome = new System.Windows.Forms.TextBox();
             this.txtEndereco = new System.Windows.Forms.TextBox();
-            this.txtTelefone = new System.Windows.Forms.TextBox();
             this.txtPedido = new System.Windows.Forms.TextBox();
             this.btnEditar = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -45,6 +44,7 @@
             this.btn_Imprimir = new System.Windows.Forms.Button();
             this.txtPagamento = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.txtTelefone = new System.Windows.Forms.MaskedTextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -100,6 +100,7 @@
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(449, 34);
             this.txtNome.TabIndex = 1;
+            this.txtNome.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNome_KeyPress);
             // 
             // txtEndereco
             // 
@@ -111,16 +112,6 @@
             this.txtEndereco.Name = "txtEndereco";
             this.txtEndereco.Size = new System.Drawing.Size(449, 78);
             this.txtEndereco.TabIndex = 2;
-            // 
-            // txtTelefone
-            // 
-            this.txtTelefone.Enabled = false;
-            this.txtTelefone.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTelefone.Location = new System.Drawing.Point(40, 415);
-            this.txtTelefone.Margin = new System.Windows.Forms.Padding(4);
-            this.txtTelefone.Name = "txtTelefone";
-            this.txtTelefone.Size = new System.Drawing.Size(253, 34);
-            this.txtTelefone.TabIndex = 3;
             // 
             // txtPedido
             // 
@@ -196,6 +187,8 @@
             this.dataAgenda.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dataAgenda.Location = new System.Drawing.Point(40, 649);
             this.dataAgenda.Margin = new System.Windows.Forms.Padding(4);
+            this.dataAgenda.MaxDate = new System.DateTime(2035, 12, 31, 0, 0, 0, 0);
+            this.dataAgenda.MinDate = new System.DateTime(2024, 1, 1, 0, 0, 0, 0);
             this.dataAgenda.Name = "dataAgenda";
             this.dataAgenda.Size = new System.Drawing.Size(169, 34);
             this.dataAgenda.TabIndex = 5;
@@ -239,12 +232,24 @@
             this.label6.TabIndex = 27;
             this.label6.Text = "Pagamento:";
             // 
+            // txtTelefone
+            // 
+            this.txtTelefone.Enabled = false;
+            this.txtTelefone.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTelefone.Location = new System.Drawing.Point(38, 421);
+            this.txtTelefone.Mask = "############";
+            this.txtTelefone.Name = "txtTelefone";
+            this.txtTelefone.Size = new System.Drawing.Size(255, 34);
+            this.txtTelefone.TabIndex = 28;
+            this.txtTelefone.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
+            // 
             // Exibir_Pedidos_Agendados
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1140, 906);
+            this.Controls.Add(this.txtTelefone);
             this.Controls.Add(this.txtPagamento);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.btn_Imprimir);
@@ -254,7 +259,6 @@
             this.Controls.Add(this.btnEditar);
             this.Controls.Add(this.txtPedido);
             this.Controls.Add(this.dataAgenda);
-            this.Controls.Add(this.txtTelefone);
             this.Controls.Add(this.txtEndereco);
             this.Controls.Add(this.txtNome);
             this.Controls.Add(this.label5);
@@ -282,7 +286,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.TextBox txtEndereco;
-        private System.Windows.Forms.TextBox txtTelefone;
         private System.Windows.Forms.TextBox txtPedido;
         private System.Windows.Forms.Button btnEditar;
         private System.Windows.Forms.Button button2;
@@ -293,5 +296,6 @@
         private System.Windows.Forms.Button btn_Imprimir;
         private System.Windows.Forms.ComboBox txtPagamento;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.MaskedTextBox txtTelefone;
     }
 }

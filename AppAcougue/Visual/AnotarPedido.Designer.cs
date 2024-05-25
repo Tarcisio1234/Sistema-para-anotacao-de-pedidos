@@ -34,7 +34,6 @@
             this.txtNome = new System.Windows.Forms.TextBox();
             this.txtEndereco = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.txtCelular = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.btnVoltar = new System.Windows.Forms.Button();
@@ -43,6 +42,7 @@
             this.dataTime = new System.Windows.Forms.DateTimePicker();
             this.label5 = new System.Windows.Forms.Label();
             this.txtPagamento = new System.Windows.Forms.ComboBox();
+            this.txtTelefone = new System.Windows.Forms.MaskedTextBox();
             this.SuspendLayout();
             // 
             // label2
@@ -84,7 +84,8 @@
             this.txtNome.Margin = new System.Windows.Forms.Padding(4);
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(500, 37);
-            this.txtNome.TabIndex = 2;
+            this.txtNome.TabIndex = 3;
+            this.txtNome.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNome_KeyPress);
             // 
             // txtEndereco
             // 
@@ -94,7 +95,7 @@
             this.txtEndereco.Multiline = true;
             this.txtEndereco.Name = "txtEndereco";
             this.txtEndereco.Size = new System.Drawing.Size(500, 88);
-            this.txtEndereco.TabIndex = 4;
+            this.txtEndereco.TabIndex = 2;
             // 
             // label3
             // 
@@ -106,15 +107,6 @@
             this.label3.Size = new System.Drawing.Size(138, 31);
             this.label3.TabIndex = 5;
             this.label3.Text = "Endereço:";
-            // 
-            // txtCelular
-            // 
-            this.txtCelular.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCelular.Location = new System.Drawing.Point(662, 523);
-            this.txtCelular.Margin = new System.Windows.Forms.Padding(4);
-            this.txtCelular.Name = "txtCelular";
-            this.txtCelular.Size = new System.Drawing.Size(301, 37);
-            this.txtCelular.TabIndex = 5;
             // 
             // label4
             // 
@@ -171,7 +163,7 @@
             this.checkBox1.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(210, 33);
-            this.checkBox1.TabIndex = 7;
+            this.checkBox1.TabIndex = 6;
             this.checkBox1.Text = "Agendar Pedido";
             this.checkBox1.UseVisualStyleBackColor = true;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
@@ -183,9 +175,11 @@
             this.dataTime.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dataTime.Location = new System.Drawing.Point(655, 619);
             this.dataTime.Margin = new System.Windows.Forms.Padding(4);
+            this.dataTime.MaxDate = new System.DateTime(2035, 12, 31, 0, 0, 0, 0);
+            this.dataTime.MinDate = new System.DateTime(2024, 1, 1, 0, 0, 0, 0);
             this.dataTime.Name = "dataTime";
             this.dataTime.Size = new System.Drawing.Size(265, 34);
-            this.dataTime.TabIndex = 10;
+            this.dataTime.TabIndex = 7;
             // 
             // label5
             // 
@@ -211,13 +205,24 @@
             this.txtPagamento.Location = new System.Drawing.Point(655, 405);
             this.txtPagamento.Name = "txtPagamento";
             this.txtPagamento.Size = new System.Drawing.Size(295, 37);
-            this.txtPagamento.TabIndex = 6;
+            this.txtPagamento.TabIndex = 4;
+            // 
+            // txtTelefone
+            // 
+            this.txtTelefone.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTelefone.Location = new System.Drawing.Point(655, 522);
+            this.txtTelefone.Mask = "############";
+            this.txtTelefone.Name = "txtTelefone";
+            this.txtTelefone.Size = new System.Drawing.Size(255, 34);
+            this.txtTelefone.TabIndex = 29;
+            this.txtTelefone.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
             // 
             // AnotarPedido
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1223, 809);
+            this.Controls.Add(this.txtTelefone);
             this.Controls.Add(this.txtPagamento);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.dataTime);
@@ -225,7 +230,6 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.txtCelular);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtEndereco);
             this.Controls.Add(this.label3);
@@ -253,7 +257,6 @@
         private System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.TextBox txtEndereco;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txtCelular;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button btnVoltar;
@@ -262,5 +265,6 @@
         private System.Windows.Forms.DateTimePicker dataTime;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ComboBox txtPagamento;
+        private System.Windows.Forms.MaskedTextBox txtTelefone;
     }
 }
