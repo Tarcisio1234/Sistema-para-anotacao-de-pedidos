@@ -82,45 +82,6 @@ namespace AppAcougue
             }
             return pedidos;
         }
-        /*public List<Pedidos> DataPedidosDoDia(string data)
-        {   //Função para buscar os pedidos baseados na data
-
-            DateTime data2 = Convert.ToDateTime(data);
-            List<Pedidos> lista = new List<Pedidos>();
-
-            try
-            {
-                MySqlConnectionManager connectionManager = new MySqlConnectionManager();
-                MySqlConnection connection = connectionManager.GetConnect();
-                connection.Open();
-                MySqlCommand cmd = new MySqlCommand();
-                cmd.Connection = connection;
-                cmd.CommandText = "SELECT * FROM pedidos WHERE data LIKE CONCAT  ('%',@data,'%');";
-                cmd.Parameters.AddWithValue("@data", data2);
-
-                using (MySqlDataReader reader = cmd.ExecuteReader())
-                {
-                    while (reader.Read())
-                    {
-                        Pedidos objeto = new Pedidos();
-                        objeto.Nome = reader.GetString("nome");
-                        objeto.Pedido = reader.GetString("pedido");
-                        objeto.Telefone = reader.GetString("telefone");
-                        objeto.Endereco = reader.GetString("endereco");
-                        objeto.Data = reader.GetDateTime("data");
-                        objeto.Pagamento = reader.GetString("pagamento");
-
-                        lista.Add(objeto);
-                    }
-                }
-                connection.Close();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Pedido não localizado" + ex.Message);
-            }
-            return lista;
-        }*/
         public static List<Pedidos> Carregar()
         {//Função para carregar os dados de pedidos
 
@@ -186,7 +147,7 @@ namespace AppAcougue
             {
                 MessageBox.Show("Não localizado" + ex.Message);
             }
-        
+
         }
         public void EditarPedido()
         {
@@ -214,6 +175,27 @@ namespace AppAcougue
                 MessageBox.Show("Erro" + ex.Message);
             }
         }
+        public void DeletarPedidosDoDia()
+        {
+            try
+            {
+                MySqlConnectionManager connectionManager = new MySqlConnectionManager();
+                MySqlConnection connection = connectionManager.GetConnect();
+                connection.Open();
+                MySqlCommand cmd = new MySqlCommand();
+                cmd.Connection = connection;
+                cmd.CommandText = "DELETE FROM `pedidos` WHERE DATE(`data`) != CURDATE()";
+                cmd.ExecuteNonQuery();
+                connection.Close();
+
+            }
+            catch(Exception ex)
+            {
+
+                MessageBox.Show("Ocorreu um erro: " + ex.Message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+            }
+        } 
     }
 }
 

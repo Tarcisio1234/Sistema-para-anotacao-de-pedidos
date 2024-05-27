@@ -180,5 +180,26 @@ namespace AppAcougue
                 MessageBox.Show("Erro" + ex.Message);
             }
         }
+        public void DeletarPedidosAntigos()
+        {
+            try
+            {
+                MySqlConnectionManager connectionManager = new MySqlConnectionManager();
+                MySqlConnection connection = connectionManager.GetConnect();
+                connection.Open();
+                    MySqlCommand cmd = new MySqlCommand();
+                    cmd.Connection = connection;
+                    cmd.CommandText = "DELETE FROM `pedidosagendados` WHERE `data` < NOW() - INTERVAL 7 DAY";
+                    cmd.ExecuteNonQuery();
+                    connection.Close();
+
+                
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Ocorreu um erro: " + ex.Message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
     }
 }

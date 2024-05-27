@@ -38,7 +38,8 @@
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.btnSalvar = new System.Windows.Forms.Button();
             this.txtIdcliente = new System.Windows.Forms.TextBox();
-            this.txtTelefone = new System.Windows.Forms.MaskedTextBox();
+            this.btnDeletar = new System.Windows.Forms.Button();
+            this.txtTelefone = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -104,7 +105,7 @@
             // btnVoltar
             // 
             this.btnVoltar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVoltar.Location = new System.Drawing.Point(51, 610);
+            this.btnVoltar.Location = new System.Drawing.Point(255, 610);
             this.btnVoltar.Name = "btnVoltar";
             this.btnVoltar.Size = new System.Drawing.Size(138, 61);
             this.btnVoltar.TabIndex = 7;
@@ -127,7 +128,7 @@
             // btnSalvar
             // 
             this.btnSalvar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalvar.Location = new System.Drawing.Point(333, 610);
+            this.btnSalvar.Location = new System.Drawing.Point(440, 610);
             this.btnSalvar.Name = "btnSalvar";
             this.btnSalvar.Size = new System.Drawing.Size(138, 61);
             this.btnSalvar.TabIndex = 9;
@@ -143,16 +144,26 @@
             this.txtIdcliente.TabIndex = 10;
             this.txtIdcliente.Visible = false;
             // 
+            // btnDeletar
+            // 
+            this.btnDeletar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDeletar.Location = new System.Drawing.Point(51, 610);
+            this.btnDeletar.Name = "btnDeletar";
+            this.btnDeletar.Size = new System.Drawing.Size(138, 61);
+            this.btnDeletar.TabIndex = 30;
+            this.btnDeletar.Text = "Apagar";
+            this.btnDeletar.UseVisualStyleBackColor = true;
+            this.btnDeletar.Click += new System.EventHandler(this.btnDeletar_Click);
+            // 
             // txtTelefone
             // 
             this.txtTelefone.Enabled = false;
             this.txtTelefone.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTelefone.Location = new System.Drawing.Point(51, 487);
-            this.txtTelefone.Mask = "############";
+            this.txtTelefone.Location = new System.Drawing.Point(51, 497);
             this.txtTelefone.Name = "txtTelefone";
-            this.txtTelefone.Size = new System.Drawing.Size(205, 34);
-            this.txtTelefone.TabIndex = 29;
-            this.txtTelefone.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
+            this.txtTelefone.Size = new System.Drawing.Size(254, 34);
+            this.txtTelefone.TabIndex = 31;
+            this.txtTelefone.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTelefone_KeyPress);
             // 
             // Exibir_Cliente
             // 
@@ -160,6 +171,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(912, 716);
             this.Controls.Add(this.txtTelefone);
+            this.Controls.Add(this.btnDeletar);
             this.Controls.Add(this.txtIdcliente);
             this.Controls.Add(this.btnSalvar);
             this.Controls.Add(this.checkBox1);
@@ -193,6 +205,7 @@
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.Button btnSalvar;
         private System.Windows.Forms.TextBox txtIdcliente;
-        private System.Windows.Forms.MaskedTextBox txtTelefone;
+        private System.Windows.Forms.Button btnDeletar;
+        private System.Windows.Forms.TextBox txtTelefone;
     }
 }

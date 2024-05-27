@@ -124,6 +124,36 @@ namespace AppAcougue
                 MessageBox.Show("Erro" + ex.Message);
             }
         }
-        
+        public void DeletarCliente()
+        {
+            try
+            {
+                MySqlConnectionManager connectionManager = new MySqlConnectionManager();
+                MySqlConnection connection = connectionManager.GetConnect();
+                connection.Open();
+
+                DialogResult cliqueD = MessageBox.Show("Deseja apagar os dados do cliente ?", "Confirmação", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+                if (cliqueD == DialogResult.OK)
+                {
+                    MySqlCommand cmd = new MySqlCommand();
+                    cmd.Connection = connection;
+                    cmd.CommandText = "DELETE FROM `cadastrocliente` WHERE idcliente = @idcliente";
+                    cmd.Parameters.AddWithValue("@idcliente", Idcliente);
+                    cmd.ExecuteNonQuery();
+                    connection.Close();
+                    MessageBox.Show("Deletado com sucesso!", "Excluir!", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+
+                }
+                else
+                {
+                    MessageBox.Show("O cliente não foi apagado!", "Dados", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                }
+
+            }
+            catch (MySqlException ex)
+            {
+                MessageBox.Show("Não localizado" + ex.Message);
+            }
+        }
     }
 }

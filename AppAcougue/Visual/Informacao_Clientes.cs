@@ -75,5 +75,23 @@ namespace AppAcougue.Visual
                 e.Handled = true;
             }
         }
+
+        private void btnDeletar_Click(object sender, EventArgs e)
+        {
+            Cliente cliente = new Cliente();
+            cliente.Idcliente = int.Parse(txtIdcliente.Text);
+            cliente.DeletarCliente();
+            BuscarCliente novo = new BuscarCliente();
+            novo.Show();
+            this.Close();
+        }
+
+        private void txtTelefone_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+        }
     }
 }

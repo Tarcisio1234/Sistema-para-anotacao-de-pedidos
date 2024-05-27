@@ -26,7 +26,8 @@ namespace AppAcougue
         }
 
         private void Historico_Load(object sender, EventArgs e)
-        {
+        {   Pedidos pedidos = new Pedidos();
+            pedidos.DeletarPedidosDoDia();
             List<Pedidos> registros = Pedidos.CarregarPedido();
             gridHistorico.DataSource = registros;
             gridHistorico.Columns["Idpedidos"].Visible=false;

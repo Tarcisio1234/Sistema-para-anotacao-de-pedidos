@@ -46,6 +46,9 @@ namespace AppAcougue
 
         private void PedidosAgendados_Load(object sender, EventArgs e)
         {
+            Agendados cliente = new Agendados();
+            cliente.DeletarPedidosAntigos();
+            txtDate.MinDate = DateTime.Today;
             List<Agendados> registros = Agendados.Carregar2();
             gridPedidosAgendados.DataSource = registros;
             gridPedidosAgendados.Columns["Idpedidosagendados"].Visible = false;
