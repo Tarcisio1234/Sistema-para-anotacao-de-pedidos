@@ -49,9 +49,6 @@ namespace AppAcougue
                     usuario.Endereco = txtEndereco.Text;
                     usuario.Telefone = txtTelefone.Text;
                     usuario.Salvar();
-                    txtTelefone.Clear();
-                    txtNome.Clear();
-                    txtEndereco.Clear();
                 }
                 else
                 {
@@ -186,14 +183,6 @@ namespace AppAcougue
             else
             {
                 dataTime.Enabled = false;
-            }
-        }
-
-        private void txtNome_KeyPress(object sender, KeyPressEventArgs e)
-        { // Esse codigo faz com que o txtNome aceite apenas numero
-            if (!char.IsControl(e.KeyChar) && !char.IsLetter(e.KeyChar))
-            {
-                e.Handled = true;
             }
         }
 
