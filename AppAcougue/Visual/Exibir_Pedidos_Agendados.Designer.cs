@@ -45,9 +45,9 @@
             this.btn_Imprimir = new System.Windows.Forms.Button();
             this.txtPagamento = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.txtTelefone = new System.Windows.Forms.MaskedTextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.txtTelefone = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -98,6 +98,7 @@
             // 
             // txtNome
             // 
+            this.txtNome.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtNome.Enabled = false;
             this.txtNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNome.Location = new System.Drawing.Point(62, 188);
@@ -108,6 +109,7 @@
             // 
             // txtEndereco
             // 
+            this.txtEndereco.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtEndereco.Enabled = false;
             this.txtEndereco.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEndereco.Location = new System.Drawing.Point(62, 294);
@@ -119,6 +121,7 @@
             // 
             // txtPedido
             // 
+            this.txtPedido.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtPedido.Enabled = false;
             this.txtPedido.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPedido.Location = new System.Drawing.Point(579, 90);
@@ -143,6 +146,7 @@
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(60, 788);
             this.button2.Margin = new System.Windows.Forms.Padding(4);
@@ -150,7 +154,7 @@
             this.button2.Size = new System.Drawing.Size(171, 52);
             this.button2.TabIndex = 7;
             this.button2.Text = "Voltar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // txtId2
@@ -211,6 +215,7 @@
             // 
             // txtPagamento
             // 
+            this.txtPagamento.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtPagamento.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.txtPagamento.Enabled = false;
             this.txtPagamento.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -236,17 +241,6 @@
             this.label6.TabIndex = 27;
             this.label6.Text = "Pagamento:";
             // 
-            // txtTelefone
-            // 
-            this.txtTelefone.Enabled = false;
-            this.txtTelefone.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTelefone.Location = new System.Drawing.Point(60, 421);
-            this.txtTelefone.Mask = "############";
-            this.txtTelefone.Name = "txtTelefone";
-            this.txtTelefone.Size = new System.Drawing.Size(255, 34);
-            this.txtTelefone.TabIndex = 28;
-            this.txtTelefone.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
@@ -265,15 +259,27 @@
             this.pictureBox2.TabIndex = 30;
             this.pictureBox2.TabStop = false;
             // 
+            // txtTelefone
+            // 
+            this.txtTelefone.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.txtTelefone.Enabled = false;
+            this.txtTelefone.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTelefone.Location = new System.Drawing.Point(62, 411);
+            this.txtTelefone.Margin = new System.Windows.Forms.Padding(4);
+            this.txtTelefone.Name = "txtTelefone";
+            this.txtTelefone.Size = new System.Drawing.Size(271, 34);
+            this.txtTelefone.TabIndex = 3;
+            this.txtTelefone.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTelefone_KeyPress);
+            // 
             // Exibir_Pedidos_Agendados
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1140, 906);
+            this.Controls.Add(this.txtTelefone);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.txtTelefone);
             this.Controls.Add(this.txtPagamento);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.btn_Imprimir);
@@ -322,8 +328,8 @@
         private System.Windows.Forms.Button btn_Imprimir;
         private System.Windows.Forms.ComboBox txtPagamento;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.MaskedTextBox txtTelefone;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.TextBox txtTelefone;
     }
 }

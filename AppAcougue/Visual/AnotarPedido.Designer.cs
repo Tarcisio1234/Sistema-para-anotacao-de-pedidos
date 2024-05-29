@@ -68,6 +68,7 @@
             // 
             // txtPedido
             // 
+            this.txtPedido.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtPedido.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPedido.Location = new System.Drawing.Point(49, 90);
             this.txtPedido.Margin = new System.Windows.Forms.Padding(4);
@@ -90,6 +91,7 @@
             // 
             // txtNome
             // 
+            this.txtNome.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNome.Location = new System.Drawing.Point(602, 290);
             this.txtNome.Margin = new System.Windows.Forms.Padding(4);
@@ -99,6 +101,7 @@
             // 
             // txtEndereco
             // 
+            this.txtEndereco.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtEndereco.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEndereco.Location = new System.Drawing.Point(602, 140);
             this.txtEndereco.Margin = new System.Windows.Forms.Padding(4);
@@ -133,7 +136,7 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.button2.BackColor = System.Drawing.Color.White;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(598, 671);
             this.button2.Margin = new System.Windows.Forms.Padding(4);
@@ -186,6 +189,7 @@
             // dataTime
             // 
             this.dataTime.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dataTime.CalendarMonthBackground = System.Drawing.Color.WhiteSmoke;
             this.dataTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dataTime.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dataTime.Location = new System.Drawing.Point(602, 614);
@@ -209,6 +213,7 @@
             // 
             // txtPagamento
             // 
+            this.txtPagamento.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtPagamento.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.txtPagamento.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPagamento.FormattingEnabled = true;
@@ -225,6 +230,7 @@
             // 
             // txtTelefone
             // 
+            this.txtTelefone.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtTelefone.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTelefone.Location = new System.Drawing.Point(602, 505);
             this.txtTelefone.Margin = new System.Windows.Forms.Padding(4);

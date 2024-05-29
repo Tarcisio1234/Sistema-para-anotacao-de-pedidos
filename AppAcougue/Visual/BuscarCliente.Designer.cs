@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BuscarCliente));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -72,6 +72,7 @@
             // 
             // txtNome
             // 
+            this.txtNome.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNome.Location = new System.Drawing.Point(194, 118);
             this.txtNome.Margin = new System.Windows.Forms.Padding(4);
@@ -81,6 +82,7 @@
             // 
             // buttonbtnVoltar
             // 
+            this.buttonbtnVoltar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.buttonbtnVoltar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonbtnVoltar.Location = new System.Drawing.Point(465, 517);
             this.buttonbtnVoltar.Margin = new System.Windows.Forms.Padding(4);
@@ -88,7 +90,7 @@
             this.buttonbtnVoltar.Size = new System.Drawing.Size(167, 66);
             this.buttonbtnVoltar.TabIndex = 3;
             this.buttonbtnVoltar.Text = "Voltar";
-            this.buttonbtnVoltar.UseVisualStyleBackColor = true;
+            this.buttonbtnVoltar.UseVisualStyleBackColor = false;
             this.buttonbtnVoltar.Click += new System.EventHandler(this.buttonbtnVoltar_Click);
             // 
             // btnBuscar
@@ -158,9 +160,9 @@
             // 
             // Exibir
             // 
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.Lime;
-            this.Exibir.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.Lime;
+            this.Exibir.DefaultCellStyle = dataGridViewCellStyle1;
             this.Exibir.HeaderText = "Exibir";
             this.Exibir.MinimumWidth = 6;
             this.Exibir.Name = "Exibir";
