@@ -3,15 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\tarci\\OneDrive\\\u00C1rea de Trabalho\\appacougue_3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7EF7961E-610E-4EB6-AFC2-CCB6C29F976C}|AppAcougue\\AppAcougue.csproj|C:\\Users\\tarci\\OneDrive\\\u00C1rea de Trabalho\\appacougue_3\\appacougue\\visual\\exibir_pedidos_dia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7EF7961E-610E-4EB6-AFC2-CCB6C29F976C}|AppAcougue\\AppAcougue.csproj|solutionrelative:appacougue\\visual\\exibir_pedidos_dia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{7EF7961E-610E-4EB6-AFC2-CCB6C29F976C}|AppAcougue\\AppAcougue.csproj|C:\\Users\\tarci\\OneDrive\\\u00C1rea de Trabalho\\appacougue_3\\appacougue\\visual\\cadastroclientecs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7EF7961E-610E-4EB6-AFC2-CCB6C29F976C}|AppAcougue\\AppAcougue.csproj|solutionrelative:appacougue\\visual\\cadastroclientecs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EF7961E-610E-4EB6-AFC2-CCB6C29F976C}|AppAcougue\\AppAcougue.csproj|c:\\users\\tarci\\onedrive\\\u00E1rea de trabalho\\appacougue_3\\appacougue\\visual\\exibir_pedidos_dia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EF7961E-610E-4EB6-AFC2-CCB6C29F976C}|AppAcougue\\AppAcougue.csproj|solutionrelative:appacougue\\visual\\exibir_pedidos_dia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7EF7961E-610E-4EB6-AFC2-CCB6C29F976C}|AppAcougue\\AppAcougue.csproj|C:\\Users\\tarci\\OneDrive\\\u00C1rea de Trabalho\\appacougue_3\\appacougue\\visual\\cadastroclientecs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EF7961E-610E-4EB6-AFC2-CCB6C29F976C}|AppAcougue\\AppAcougue.csproj|solutionrelative:appacougue\\visual\\cadastroclientecs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EF7961E-610E-4EB6-AFC2-CCB6C29F976C}|AppAcougue\\AppAcougue.csproj|c:\\users\\tarci\\onedrive\\\u00E1rea de trabalho\\appacougue_3\\appacougue\\visual\\anotarpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7EF7961E-610E-4EB6-AFC2-CCB6C29F976C}|AppAcougue\\AppAcougue.csproj|c:\\users\\tarci\\onedrive\\\u00E1rea de trabalho\\appacougue_3\\appacougue\\visual\\cadastroclientecs.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EF7961E-610E-4EB6-AFC2-CCB6C29F976C}|AppAcougue\\AppAcougue.csproj|solutionrelative:appacougue\\visual\\cadastroclientecs.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF7961E-610E-4EB6-AFC2-CCB6C29F976C}|AppAcougue\\AppAcougue.csproj|C:\\Users\\tarci\\OneDrive\\\u00C1rea de Trabalho\\appacougue_3\\appacougue\\visual\\anotarpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7EF7961E-610E-4EB6-AFC2-CCB6C29F976C}|AppAcougue\\AppAcougue.csproj|solutionrelative:appacougue\\visual\\anotarpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -19,20 +23,8 @@
       "RelativeMoniker": "D:0:0:{7EF7961E-610E-4EB6-AFC2-CCB6C29F976C}|AppAcougue\\AppAcougue.csproj|solutionrelative:appacougue\\visual\\anotarpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EF7961E-610E-4EB6-AFC2-CCB6C29F976C}|AppAcougue\\AppAcougue.csproj|C:\\Users\\tarci\\OneDrive\\\u00C1rea de Trabalho\\appacougue_3\\appacougue\\visual\\historico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7EF7961E-610E-4EB6-AFC2-CCB6C29F976C}|AppAcougue\\AppAcougue.csproj|solutionrelative:appacougue\\visual\\historico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EF7961E-610E-4EB6-AFC2-CCB6C29F976C}|AppAcougue\\AppAcougue.csproj|C:\\Users\\tarci\\OneDrive\\\u00C1rea de Trabalho\\appacougue_3\\appacougue\\visual\\cadastroclientecs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7EF7961E-610E-4EB6-AFC2-CCB6C29F976C}|AppAcougue\\AppAcougue.csproj|solutionrelative:appacougue\\visual\\cadastroclientecs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EF7961E-610E-4EB6-AFC2-CCB6C29F976C}|AppAcougue\\AppAcougue.csproj|c:\\users\\tarci\\onedrive\\\u00E1rea de trabalho\\appacougue_3\\appacougue\\visual\\informacao_clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7EF7961E-610E-4EB6-AFC2-CCB6C29F976C}|AppAcougue\\AppAcougue.csproj|solutionrelative:appacougue\\visual\\informacao_clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EF7961E-610E-4EB6-AFC2-CCB6C29F976C}|AppAcougue\\AppAcougue.csproj|C:\\Users\\tarci\\OneDrive\\\u00C1rea de Trabalho\\appacougue_3\\appacougue\\visual\\buscarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7EF7961E-610E-4EB6-AFC2-CCB6C29F976C}|AppAcougue\\AppAcougue.csproj|solutionrelative:appacougue\\visual\\buscarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{7EF7961E-610E-4EB6-AFC2-CCB6C29F976C}|AppAcougue\\AppAcougue.csproj|C:\\Users\\tarci\\OneDrive\\\u00C1rea de Trabalho\\appacougue_3\\appacougue\\classe\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EF7961E-610E-4EB6-AFC2-CCB6C29F976C}|AppAcougue\\AppAcougue.csproj|solutionrelative:appacougue\\classe\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -53,101 +45,81 @@
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Exibir_pedidos_dia.cs",
-              "DocumentMoniker": "C:\\Users\\tarci\\OneDrive\\\u00C1rea de Trabalho\\appacougue_3\\AppAcougue\\Visual\\Exibir_pedidos_dia.cs",
-              "RelativeDocumentMoniker": "AppAcougue\\Visual\\Exibir_pedidos_dia.cs",
-              "ToolTip": "C:\\Users\\tarci\\OneDrive\\\u00C1rea de Trabalho\\appacougue_3\\AppAcougue\\Visual\\Exibir_pedidos_dia.cs",
-              "RelativeToolTip": "AppAcougue\\Visual\\Exibir_pedidos_dia.cs",
-              "ViewState": "AQIAAIIAAAAAAAAAAAAnwJYAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T01:03:02.349Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AnotarPedido.cs",
-              "DocumentMoniker": "C:\\Users\\tarci\\OneDrive\\\u00C1rea de Trabalho\\appacougue_3\\AppAcougue\\Visual\\AnotarPedido.cs",
-              "RelativeDocumentMoniker": "AppAcougue\\Visual\\AnotarPedido.cs",
-              "ToolTip": "C:\\Users\\tarci\\OneDrive\\\u00C1rea de Trabalho\\appacougue_3\\AppAcougue\\Visual\\AnotarPedido.cs",
-              "RelativeToolTip": "AppAcougue\\Visual\\AnotarPedido.cs",
-              "ViewState": "AQIAAIYAAAAAAAAAAAAnwL4AAAAOAAAA",
+              "Title": "CadastroClientecs.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\tarci\\OneDrive\\\u00C1rea de Trabalho\\appacougue_3\\AppAcougue\\Visual\\CadastroClientecs.Designer.cs",
+              "RelativeDocumentMoniker": "AppAcougue\\Visual\\CadastroClientecs.Designer.cs",
+              "ToolTip": "C:\\Users\\tarci\\OneDrive\\\u00C1rea de Trabalho\\appacougue_3\\AppAcougue\\Visual\\CadastroClientecs.Designer.cs",
+              "RelativeToolTip": "AppAcougue\\Visual\\CadastroClientecs.Designer.cs",
+              "ViewState": "AQIAAKkAAAAAAAAAAAAAALQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T01:00:47.82Z",
+              "WhenOpened": "2024-05-29T19:22:35.484Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Historico.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\tarci\\OneDrive\\\u00C1rea de Trabalho\\appacougue_3\\AppAcougue\\Visual\\Historico.cs",
-              "RelativeDocumentMoniker": "AppAcougue\\Visual\\Historico.cs",
-              "ToolTip": "C:\\Users\\tarci\\OneDrive\\\u00C1rea de Trabalho\\appacougue_3\\AppAcougue\\Visual\\Historico.cs [Design]",
-              "RelativeToolTip": "AppAcougue\\Visual\\Historico.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "CadastroClientecs.cs",
+              "DocumentMoniker": "C:\\Users\\tarci\\OneDrive\\\u00C1rea de Trabalho\\appacougue_3\\AppAcougue\\Visual\\CadastroClientecs.cs",
+              "RelativeDocumentMoniker": "AppAcougue\\Visual\\CadastroClientecs.cs",
+              "ToolTip": "C:\\Users\\tarci\\OneDrive\\\u00C1rea de Trabalho\\appacougue_3\\AppAcougue\\Visual\\CadastroClientecs.cs",
+              "RelativeToolTip": "AppAcougue\\Visual\\CadastroClientecs.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T22:45:07.45Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-29T19:22:21.162Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Exibir_pedidos_dia.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\tarci\\OneDrive\\\u00C1rea de Trabalho\\appacougue_3\\AppAcougue\\Visual\\Exibir_pedidos_dia.cs",
-              "RelativeDocumentMoniker": "AppAcougue\\Visual\\Exibir_pedidos_dia.cs",
-              "ToolTip": "C:\\Users\\tarci\\OneDrive\\\u00C1rea de Trabalho\\appacougue_3\\AppAcougue\\Visual\\Exibir_pedidos_dia.cs [Design]",
-              "RelativeToolTip": "AppAcougue\\Visual\\Exibir_pedidos_dia.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T22:45:00.889Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AnotarPedido.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\tarci\\OneDrive\\\u00C1rea de Trabalho\\appacougue_3\\AppAcougue\\Visual\\AnotarPedido.cs",
-              "RelativeDocumentMoniker": "AppAcougue\\Visual\\AnotarPedido.cs",
-              "ToolTip": "C:\\Users\\tarci\\OneDrive\\\u00C1rea de Trabalho\\appacougue_3\\AppAcougue\\Visual\\AnotarPedido.cs [Design]",
-              "RelativeToolTip": "AppAcougue\\Visual\\AnotarPedido.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T21:00:57.553Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "CadastroClientecs.cs [Design]",
               "DocumentMoniker": "C:\\Users\\tarci\\OneDrive\\\u00C1rea de Trabalho\\appacougue_3\\AppAcougue\\Visual\\CadastroClientecs.cs",
               "RelativeDocumentMoniker": "AppAcougue\\Visual\\CadastroClientecs.cs",
               "ToolTip": "C:\\Users\\tarci\\OneDrive\\\u00C1rea de Trabalho\\appacougue_3\\AppAcougue\\Visual\\CadastroClientecs.cs [Design]",
               "RelativeToolTip": "AppAcougue\\Visual\\CadastroClientecs.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T22:43:43.641Z",
+              "WhenOpened": "2024-05-29T19:22:16.966Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Informacao_Clientes.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\tarci\\OneDrive\\\u00C1rea de Trabalho\\appacougue_3\\AppAcougue\\Visual\\Informacao_Clientes.cs",
-              "RelativeDocumentMoniker": "AppAcougue\\Visual\\Informacao_Clientes.cs",
-              "ToolTip": "C:\\Users\\tarci\\OneDrive\\\u00C1rea de Trabalho\\appacougue_3\\AppAcougue\\Visual\\Informacao_Clientes.cs [Design]",
-              "RelativeToolTip": "AppAcougue\\Visual\\Informacao_Clientes.cs [Design]",
+              "DocumentIndex": 3,
+              "Title": "AnotarPedido.cs",
+              "DocumentMoniker": "C:\\Users\\tarci\\OneDrive\\\u00C1rea de Trabalho\\appacougue_3\\AppAcougue\\Visual\\AnotarPedido.cs",
+              "RelativeDocumentMoniker": "AppAcougue\\Visual\\AnotarPedido.cs",
+              "ToolTip": "C:\\Users\\tarci\\OneDrive\\\u00C1rea de Trabalho\\appacougue_3\\AppAcougue\\Visual\\AnotarPedido.cs",
+              "RelativeToolTip": "AppAcougue\\Visual\\AnotarPedido.cs",
+              "ViewState": "AQIAALQAAAAAAAAAAAAQwMEAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T22:45:12.054Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-29T19:26:57.088Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BuscarCliente.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\tarci\\OneDrive\\\u00C1rea de Trabalho\\appacougue_3\\AppAcougue\\Visual\\BuscarCliente.cs",
-              "RelativeDocumentMoniker": "AppAcougue\\Visual\\BuscarCliente.cs",
-              "ToolTip": "C:\\Users\\tarci\\OneDrive\\\u00C1rea de Trabalho\\appacougue_3\\AppAcougue\\Visual\\BuscarCliente.cs [Design]",
-              "RelativeToolTip": "AppAcougue\\Visual\\BuscarCliente.cs [Design]",
+              "DocumentIndex": 5,
+              "Title": "Conexao.cs",
+              "DocumentMoniker": "C:\\Users\\tarci\\OneDrive\\\u00C1rea de Trabalho\\appacougue_3\\AppAcougue\\Classe\\Conexao.cs",
+              "RelativeDocumentMoniker": "AppAcougue\\Classe\\Conexao.cs",
+              "ToolTip": "C:\\Users\\tarci\\OneDrive\\\u00C1rea de Trabalho\\appacougue_3\\AppAcougue\\Classe\\Conexao.cs",
+              "RelativeToolTip": "AppAcougue\\Classe\\Conexao.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T22:43:31.803Z"
+              "WhenOpened": "2024-05-29T19:00:03.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AnotarPedido.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tarci\\OneDrive\\\u00C1rea de Trabalho\\appacougue_3\\AppAcougue\\Visual\\AnotarPedido.cs",
+              "RelativeDocumentMoniker": "AppAcougue\\Visual\\AnotarPedido.cs",
+              "ToolTip": "C:\\Users\\tarci\\OneDrive\\\u00C1rea de Trabalho\\appacougue_3\\AppAcougue\\Visual\\AnotarPedido.cs [Design]",
+              "RelativeToolTip": "AppAcougue\\Visual\\AnotarPedido.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T17:55:10.241Z"
             }
           ]
         }

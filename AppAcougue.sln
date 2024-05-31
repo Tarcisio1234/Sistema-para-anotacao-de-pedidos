@@ -5,16 +5,24 @@ VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppAcougue", "AppAcougue\AppAcougue.csproj", "{7EF7961E-610E-4EB6-AFC2-CCB6C29F976C}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Açougue do Francisco", "Açougue do Francisco\Açougue do Francisco.vdproj", "{D84B2530-2157-4357-A5E7-92032326FCCF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		All|Any CPU = All|Any CPU
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EF7961E-610E-4EB6-AFC2-CCB6C29F976C}.All|Any CPU.ActiveCfg = Release|Any CPU
+		{7EF7961E-610E-4EB6-AFC2-CCB6C29F976C}.All|Any CPU.Build.0 = Release|Any CPU
 		{7EF7961E-610E-4EB6-AFC2-CCB6C29F976C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7EF7961E-610E-4EB6-AFC2-CCB6C29F976C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EF7961E-610E-4EB6-AFC2-CCB6C29F976C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EF7961E-610E-4EB6-AFC2-CCB6C29F976C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D84B2530-2157-4357-A5E7-92032326FCCF}.All|Any CPU.ActiveCfg = Debug
+		{D84B2530-2157-4357-A5E7-92032326FCCF}.Debug|Any CPU.ActiveCfg = Debug
+		{D84B2530-2157-4357-A5E7-92032326FCCF}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

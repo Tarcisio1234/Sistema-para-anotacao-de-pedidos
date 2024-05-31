@@ -204,7 +204,6 @@ C:\Users\tarci\OneDrive\Área de Trabalho\AppAcougueTeste\AppAcougue-master\AppA
 C:\Users\tarci\OneDrive\Área de Trabalho\AppAcougueTeste\AppAcougue-master\AppAcougue\bin\Debug\Spire.License.xml
 C:\Users\tarci\OneDrive\Área de Trabalho\AppAcougueTeste\AppAcougue-master\AppAcougue\bin\Debug\Spire.Pdf.xml
 C:\Users\tarci\OneDrive\Área de Trabalho\AppAcougueTeste\AppAcougue-master\AppAcougue\bin\Debug\nl\PdfiumViewer.resources.dll
-C:\Users\tarci\OneDrive\Área de Trabalho\appacougue_3\AppAcougue\bin\Debug\x86\pdfium.dll
 C:\Users\tarci\OneDrive\Área de Trabalho\appacougue_3\AppAcougue\bin\Debug\AppAcougue.exe.config
 C:\Users\tarci\OneDrive\Área de Trabalho\appacougue_3\AppAcougue\bin\Debug\AppAcougue.exe
 C:\Users\tarci\OneDrive\Área de Trabalho\appacougue_3\AppAcougue\bin\Debug\AppAcougue.pdb
@@ -311,3 +310,4 @@ C:\Users\tarci\OneDrive\Área de Trabalho\appacougue_3\AppAcougue\obj\Debug\AppA
 C:\Users\tarci\OneDrive\Área de Trabalho\appacougue_3\AppAcougue\obj\Debug\AppAcougue.csproj.Up2Date
 C:\Users\tarci\OneDrive\Área de Trabalho\appacougue_3\AppAcougue\obj\Debug\AppAcougue.exe
 C:\Users\tarci\OneDrive\Área de Trabalho\appacougue_3\AppAcougue\obj\Debug\AppAcougue.pdb
+C:\Users\tarci\OneDrive\Área de Trabalho\appacougue_3\AppAcougue\bin\Debug\x86\pdfium.dll

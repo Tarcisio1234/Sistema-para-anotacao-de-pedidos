@@ -67,9 +67,9 @@ namespace AppAcougue
                 }
         }
 
-        private void txtNome_KeyPress(object sender, KeyPressEventArgs e)
-        { // O txt nome aceita apenas letras
-            if (!char.IsControl(e.KeyChar) && !char.IsLetter(e.KeyChar))
+        private void txtTelefone_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
             {
                 e.Handled = true;
             }
